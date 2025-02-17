@@ -89,6 +89,16 @@
     main().catch(console.error);
     ```
 
+4. **Execute the project:**
+   To execute the project you first need to build it using 
+    ```sh
+    npm run build
+    ```
+    Then run the index file using
+    ```sh
+    node dist/index.js
+    ```
+
 ### Notes
 - Ensure you have the correct permissions to clone the repository.
 - Adjust the commands as per your package manager (npm or yarn).
